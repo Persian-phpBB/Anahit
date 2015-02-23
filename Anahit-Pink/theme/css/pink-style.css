@@ -29,7 +29,7 @@
 	background:url(./images/img/bg.jpg);
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	margin:0;
-       overflow-x: hidden;
+        overflow-x: hidden;
 	}
 
 	.head {
@@ -48,10 +48,21 @@
 
 	.top1 {
 	background:url(./images/img/top-pink.jpg);
-	height:47px;
-	width:100%;
+	height:35px;
+        width: 100%;
 	z-index:10;
+        position: fixed;
+	padding: 3px 0px;
+	margin-top:-6px;
 	}
+
+        .top1 a {
+	color: #FFFFFF;
+        }
+
+     	.top1  .small-icon > a:before {
+	color: #DEDEDE;
+        }
 
 	.search1 {
 	-moz-border-radius:5px;
