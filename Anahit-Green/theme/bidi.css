@@ -982,9 +982,9 @@ li.breadcrumbs span:first-child > a {
 }
 
 .rtl .search-header {
-	float: right;
+	float: left;
 	margin-right: 0;
-	margin-left: 12px;
+	margin-left: 3px;
 }
 
 .rtl input.search {

@@ -47,11 +47,21 @@
 
 	.top1 {
 	background:url(./images/img/green-top.jpg);
-	height:47px;
+	height:37px;
 	width:100%;
 	z-index:10;
+	position: fixed;
+	padding: 3px 0px;
+	margin-top:-6px;
 	}
 
+	.top1 a {
+	color: #FFFFFF;
+	}
+
+	.top1 .small-icon > a:before {
+	color: #DEDEDE;
+	}
 
 	.search1 {
 	-moz-border-radius:5px;

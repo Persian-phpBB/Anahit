@@ -4,13 +4,11 @@ Changelogs:
     * Inital Release 09 Jan 2015
 
 
-
 1.1.0
     * Add Support Responsive Technology
     * Fix The Notification Problems
     * Remove The Extra Images
     * Fix Many Bugs
-
 
 
 1.1.1
@@ -21,3 +19,10 @@ Changelogs:
 1.1.2
     * Fix Font-Size Of Main Forums
     * Fix Search-Box In Header
+
+
+1.2.0
+    * Update Font Awesome to 4.3.0
+    * Remove Search box From Header And Move To Navbar
+    * Fix NavBar In Header And Improve It
+    * Fix Some Bugs
