@@ -37,7 +37,7 @@ hr {
 }
 
 .search-header {
-	box-shadow: 0 0 10px #ffffff;
+	box-shadow: 0 0 3px #000000;
 }
 
 /* Round cornered boxes and backgrounds
@@ -758,8 +758,9 @@ Colours and backgrounds for buttons.css
 }
 
 .small-icon > a {
-	padding-left: 0 !important;
-	padding-right: 0 !important;
+	padding-left: 4px !important;
+	padding-right: 0px !important;
+        padding-top: 5px !important;
 }
 
 .small-icon > a:before,
