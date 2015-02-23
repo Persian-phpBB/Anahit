@@ -1,0 +1,138 @@
+	<!-- EVENT overall_footer_content_after --> 
+	</div>
+
+	<!-- EVENT overall_footer_page_body_after -->
+	<div id="page-footer"> 
+
+	<!-- INCLUDE navbar_footer.html -->
+	   <br /> 
+	   <div data-ajax-error-text="{L_AJAX_ERROR_TEXT}"
+			data-ajax-error-text-abort="{L_AJAX_ERROR_TEXT_ABORT}"
+			data-ajax-error-text-parsererror="{L_AJAX_ERROR_TEXT_PARSERERROR}"
+			data-ajax-error-text-timeout="{L_AJAX_ERROR_TEXT_TIMEOUT}"
+			data-ajax-error-title="{L_AJAX_ERROR_TITLE}" id="darkenwrapper"> 
+		  <div id="darken">&nbsp;</div>
+	   </div>
+	   <div id="loading_indicator"></div>
+	   <div class="phpbb_alert" data-l-err="{L_ERROR}"
+			data-l-timeout-processing-req="{L_TIMEOUT_PROCESSING_REQ}"
+			id="phpbb_alert"> <a class="alert_close" href="#"></a> 
+		  <h3 class="alert_title">&nbsp;</h3> 
+
+		  <p class="alert_text"></p>
+	   </div>
+	   <div class="phpbb_alert" id="phpbb_confirm"> 
+		  <a class="alert_close" href="#"></a> 
+		  <div class="alert_text"></div>
+	   </div>
+	</div>
+	</div>
+	<div> <a accesskey="z" class="anchor" id="bottom"></a> 
+
+	<!-- IF not S_IS_BOT -->{RUN_CRON_TASK}<!-- ENDIF --> 
+	</div>
+	<script src="{T_JQUERY_LINK}" type="text/javascript"></script> 
+
+	<!-- IF S_ALLOW_CDN -->
+	<script type="text/javascript">window.jQuery || document.write(unescape('%3Cscript src="{T_ASSETS_PATH}/javascript/jquery.min.js?assets_version={T_ASSETS_VERSION}" type="text/javascript"%3E%3C/script%3E'));</script><!-- ENDIF --> 
+	<script src="{T_ASSETS_PATH}/javascript/core.js?assets_version={T_ASSETS_VERSION}"
+			type="text/javascript"></script> 
+
+	<!-- INCLUDEJS forum_fn.js -->
+	<!-- INCLUDEJS ajax.js -->
+	<!-- EVENT overall_footer_after -->
+	<!-- IF S_PLUPLOAD -->
+	<!-- INCLUDE plupload.html -->
+	<!-- ENDIF -->{$SCRIPTS} 
+        <!-- EVENT overall_footer_body_after -->
+	<div class="floatcontainer footer1" id="footer"> 
+	   <div class="copyright"> Style By:<a href="http://www.php-bb.ir">Meis@M</a><br />
+		  
+
+	<!-- EVENT overall_footer_copyright_prepend -->{CREDIT_LINE} 
+
+	<!-- IF TRANSLATION_INFO -->
+		  <br />{TRANSLATION_INFO}<!-- ENDIF --> 
+
+	<!-- EVENT overall_footer_copyright_append -->
+	<!-- IF DEBUG_OUTPUT -->
+		  <div class="responsive-hide"><br />{DEBUG_OUTPUT}<!-- ENDIF --> </div>
+	   </div>
+	   <br> 
+	   <ul class="footer_links" id="footer_links">
+
+	<!-- IF U_WATCH_FORUM_LINK and not S_IS_BOT -->
+		  <li class="small-icon icon-<!-- IF S_WATCHING_FORUM -->unsubscribe<!-- ELSE -->subscribe<!-- ENDIF -->"
+			  data-last-responsive="true">
+		  <a data-ajax="toggle_link"
+			 data-toggle-class="small-icon icon-<!-- IF not S_WATCHING_FORUM -->unsubscribe<!-- ELSE -->subscribe<!-- ENDIF -->"
+			 data-toggle-text="{S_WATCH_FORUM_TOGGLE}"
+			 data-toggle-url="{U_WATCH_FORUM_TOGGLE}" href="{U_WATCH_FORUM_LINK}"
+			 title="{S_WATCH_FORUM_TITLE}">{S_WATCH_FORUM_TITLE}</a></li><!-- ENDIF --> 
+
+	<!-- EVENT overall_footer_timezone_before -->
+		 <li class="rightside none responsive-hide">{S_TIMEZONE}</li>
+	<!-- EVENT overall_footer_timezone_after -->
+	<!-- IF not S_IS_BOT -->
+		  <li class="small-icon icon-delete-cookies rightside responsive-hide">
+		  <a data-ajax="true" data-refresh="true" href="{U_DELETE_COOKIES}" >{L_DELETE_COOKIES}</a></li> 
+
+	<!-- IF S_DISPLAY_MEMBERLIST -->
+		  <li class="small-icon icon-members rightside"
+			  data-last-responsive="true">
+		  <a href="{U_MEMBERLIST}" title="{L_MEMBERLIST_EXPLAIN}">{L_MEMBERLIST}</a></li><!-- ENDIF --> 
+
+	<!-- ENDIF -->
+	<!-- EVENT overall_footer_teamlink_before -->
+	<!-- IF U_TEAM -->
+		  <li class="small-icon icon-team rightside responsive-hide" data-last-responsive="true">
+		  <a href="{U_TEAM}">{L_THE_TEAM}</a></li><!-- ENDIF --> 
+
+	<!-- EVENT overall_footer_teamlink_after -->
+	<!-- IF U_CONTACT_US -->
+		  <li class="small-icon icon-contact rightside"
+			  data-last-responsive="true">
+		  <a href="{U_CONTACT_US}">{L_CONTACT_US}</a></li><!-- ENDIF --> 
+	   </ul>
+	   <div style="clear:both;"></div>
+	</div>
+	<div style="clear:both;"></div>
+	</div>
+<div class="none">
+
+	<!-- Closing div for body_wrapper -->
+	<div class="below_body"> 
+	</div>
+	<div class="footer"> 
+	   <div class="footer-left"></div>
+	   <div class="footer-center"> 
+		  <div class="shadow"></div>
+		  <table>
+			 <tr>
+				<td class="stat-block2 responsive-hide"> Lorem Ipsum is simply dummy text of
+				   the printing and typesetting industry. Lorem Ipsum has been
+				   the industry's standard dummy text ever since the 1500s,
+				   when an unknown printer took a galley of type and scrambled
+				   it to make a type specimen book.
+				   <div class="clock">{CURRENT_TIME}</div>
+				</td>
+				<td class="stat-block3">
+				   <br /> <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+				   <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a> 
+				   <a href="#"><i class="fa fa-youtube-square fa-3x"></i></a> 
+				   <a href="#"><i class="fa fa-google-plus-square fa-3x"></i></a>
+				   
+				</td>
+			 </tr>
+		  </table>
+	   </div>
+	   <div class="footer-right"></div>
+	</div>
+	<div class="shade footer_morecopyright" id="footer_morecopyright"> 
+	</div>
+
+	</div>
+
+	</body>
+	</html> 
+
