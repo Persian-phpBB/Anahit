@@ -400,9 +400,9 @@ input.button1:focus, input.button2:focus, input.button3:focus {
 .search-header {
 	border-radius: 4px;
 	display: block;
-	float: left;
+	float: right;
 	margin-left: 20px;
-	margin-top: 12px;
+	margin-top: 1px;
 }
 
 .search-header .inputbox { border: 0; }
