@@ -389,7 +389,6 @@ function parseDocument($container) {
 
 			maxWidth = $this.width() - width - diff;
 			$left.css('max-width', Math.floor(Math.max(maxWidth, minWidth)) + 'px');
- 		}
 		}
 
 		resize();
@@ -423,7 +422,7 @@ function parseDocument($container) {
 			// Test max-width set in code for .navlinks above
 			width = parseInt($this.css('max-width'));
 			if (!width) {
-				width = $body.width();
+ 				width = $body.width();
 			}
 
 			maxHeight = parseInt($this.css('line-height'));

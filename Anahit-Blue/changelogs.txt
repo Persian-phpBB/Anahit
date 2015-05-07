@@ -26,3 +26,7 @@ Changelogs:
     * Remove Search box From Header And Move To Navbar
     * Fix NavBar In Header And Improve It
     * Fix Some Bugs
+	
+1.3.0
+    * Update Style to phpBB 3.1.4
+	* Fixed Some Bugs
